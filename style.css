@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(0, 8, 82), rgb(9, 73, 168), rgb(89, 5, 224));
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    margin-left: 30px;   
+}
+.logo { 
+    color: white;
+    font-size: 25px;
+    font-family: Calibri;
+    float: left;
+    padding-top: -1%;
+    cursor: pointer;
+    transition: 0.7s ease-out;
+}
+.logo:hover { 
+    transform: scale(110%,110%);
+    color: rgb(5, 89, 216);
+}
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    padding-top: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90%;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+ul li a:hover{
+    color: cadetblue;
+}
+.searchbar {
+    float: left;
+    width: 240px;
+    background: whitesmoke;
+    height: 30px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: -4.3%;
+    margin-left: 32%;
+}
+.searchbar .searchtext{
+    width: 190px;
+    padding: 0 6px;
+}
+.searchbutton{
+    position: relative;
+    text-decoration: none;
+    background: whitesmoke;
+    color: rgb(8, 121, 212);
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.searchtext{
+    position: relative;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .6px;
+}
+.background{
+    position: relative;
+    height: 90vh;
+    background-image: url(blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.background::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 2.5%;
+    transform: translate(-50, -50);
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+}
+.title a, .title h1, title p{
+    text-decoration: none;
+}
+.title h1{
+    position: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.title h1 span1{
+    position: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(89, 5, 224);
+    font-size: 40px;
+}
+.title h1 span2{
+    position: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(89, 5, 224);
+    font-size: 40px;
+}
+.title p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.titlebutton{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-weight: bold;
+    position: absolute;
+    top: 67%;
+    left: 2.7%;
+    transform: translate(-50, -50);
+    display:flex;
+    flex-direction:row;
+    gap:1em;
+}
+.ttbtn{
+    padding: 11px 25px;
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+.ttbtn1{
+    padding: 11px 25px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+.ttbtn:hover {
+    background-color: black;
+    color: cadetblue;
+}
+.ttbtn1:hover {
+    background-color: aliceblue;
+    color: cadetblue;
+}
+.picko1{
+    width: 300px;
+    height: 350px;
+    background-image: url(green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: 5px solid whitesmoke;
+    border-radius: 30%;
+    transition: .7s ease-in-out;
+}
+.picko1:hover{
+    border: 10px solid rgb(89, 5, 224);
+}
+.picko2{
+    width: 400px;
+    height: 350px;
+    background-image: url(jacket.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 44%;
+    right: 25%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: 5px solid whitesmoke;
+    border-radius: 30%;
+    transition: 1s ease-in-out;
+}
+.picko2:hover{
+    border: 10px solid rgb(89, 5, 224);
+     transform: scale(100%,99%);
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.socials a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+}
+.socials i{
+    margin-left: 5%;
+    color: white;
+    transition: .5s ease;
+}
+.socials i:hover{
+    color: rgb(89, 5, 224);
+}
