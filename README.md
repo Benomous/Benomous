@@ -1,7 +1,4 @@
-### Hi there 👋
-
-I love you 😱
-
+### A s1mple webs1te before enter1ng college. God bless me.
 <!--
 **Benomous/Benomous** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
